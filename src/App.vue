@@ -100,7 +100,7 @@ export default {
 }
 #app {
   padding: 50px;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 body {
@@ -127,5 +127,20 @@ body {
 }
 .result span {
   font-weight: bold;
+}
+@media (max-width: 1500px) {
+  #app {
+    padding: 10px;
+    overflow: hidden;
+  }
+  .wrapper{
+    display: block;
+  }
+  .wrapper input {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
 }
 </style>

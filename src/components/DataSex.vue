@@ -36,7 +36,6 @@ export default {
       this.cdata['activity'] = this.ratios[this.index]
       this.cdata['sex'] = this.selectedSex
       this.currentClass = !this.currentClass
-      console.log(this.cdata)
     },
     replacer(sex, i) {
       this.index = i
@@ -71,6 +70,7 @@ export default {
 }
 ul {
   position: absolute;
+  z-index: 1000;
   top: 51px;
   left: 0;
   padding: 0;
@@ -96,5 +96,10 @@ li:hover {
 .sexTitle {
   position: absolute;
   top: 25px;
+}
+@media (max-width: 1500px) {
+  .main {
+    width: 100%;
+  }
 }
 </style>

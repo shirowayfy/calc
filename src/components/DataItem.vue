@@ -40,7 +40,6 @@ export default {
       } else {
         this.isRed = true
       }
-      console.log(this.cdata)
     }
   }
 }
