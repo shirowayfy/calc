@@ -74,4 +74,9 @@ span {
   left: 10px;
   font-size: 12px;
 }
+@media (max-width: 1500px) {
+  input {
+    width: 100%;
+  }
+}
 </style>

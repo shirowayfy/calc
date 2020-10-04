@@ -130,14 +130,12 @@ body {
 }
 @media (max-width: 1500px) {
   #app {
-    padding: 10px;
     overflow: hidden;
+    padding: 0px;
   }
   .wrapper{
     display: block;
-  }
-  .wrapper input {
-    width: 100%;
+    margin: 0 auto;
   }
   .btn {
     width: 100%;
