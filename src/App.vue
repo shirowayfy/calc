@@ -124,7 +124,7 @@ body {
   text-align: center;
   padding: 10px 10px;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   width: 100%;
 }
 .result span {
@@ -133,7 +133,8 @@ body {
 @media (max-width: 1500px) {
   #app {
     overflow: hidden;
-    padding: 0px;
+    padding: 0;
+    height: 100%;
   }
   .wrapper{
     display: block;
