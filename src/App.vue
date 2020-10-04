@@ -89,6 +89,7 @@ export default {
 .btn {
   width: 100%;
   height: 50px;
+  margin-bottom: 20px;
   background: green;
   border-radius: 10px;
   display: flex;
@@ -123,6 +124,7 @@ body {
   text-align: center;
   padding: 10px 10px;
   font-size: 24px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .result span {
