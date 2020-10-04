@@ -5,7 +5,7 @@
       <input
         :class="{ error: isRed }"
         @input="updateData"
-        type="text"
+        type="number"
         v-model.number="content"
       />
     </label>
